@@ -1,0 +1,12 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Repositories\workSpace\spark-video-course\target\scala-2.12\classes ...
+[error] C:\Repositories\workSpace\spark-video-course\src\main\scala\utils\SparkUtils.scala:12:8: value cvs is not a member of org.apache.spark.sql.DataFrameReader
+[error] possible cause: maybe a semicolon is missing before `value cvs'?
+[error]       .cvs(path)
+[error]        ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 6 s, completed 11 abr. 2025 8:22:11
+[debug] > Exec(idea-shell, None, None)

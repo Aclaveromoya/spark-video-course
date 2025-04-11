@@ -1,0 +1,35 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Repositories\workSpace\spark-video-course\target\scala-2.12\classes ...
+[info] done compiling
+[error] org.apache.spark.SparkException: A master URL must be set in your configuration
+[error] 	at org.apache.spark.SparkContext.<init>(SparkContext.scala:390)
+[error] 	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2735)
+[error] 	at org.apache.spark.sql.SparkSession$Builder.$anonfun$getOrCreate$2(SparkSession.scala:1026)
+[error] 	at scala.Option.getOrElse(Option.scala:189)
+[error] 	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:1020)
+[error] 	at es.azaharaclavero.sparkvideocourse.WindowsFunctionsMain$.main(WindowsFunctionsMain.scala:9)
+[error] 	at es.azaharaclavero.sparkvideocourse.WindowsFunctionsMain.main(WindowsFunctionsMain.scala)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[error] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[error] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[error] 	at sbt.Run.invokeMain(Run.scala:135)
+[error] 	at sbt.Run.execute$1(Run.scala:85)
+[error] 	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:112)
+[error] 	at sbt.Run$.executeSuccess(Run.scala:178)
+[error] 	at sbt.Run.runWithLoader(Run.scala:112)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:2072)
+[error] 	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:2011)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at scala.util.Try$.apply(Try.scala:213)
+[error] 	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:378)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (Compile / run) org.apache.spark.SparkException: A master URL must be set in your configuration
+[error] Total time: 23 s, completed 1 abr. 2025 12:37:40
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

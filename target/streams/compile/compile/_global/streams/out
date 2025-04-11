@@ -1,0 +1,5 @@
+[error] C:\Repositories\workSpace\spark-video-course\src\main\scala\utils\SparkUtils.scala:12:8: value cvs is not a member of org.apache.spark.sql.DataFrameReader
+[error] possible cause: maybe a semicolon is missing before `value cvs'?
+[error]       .cvs(path)
+[error]        ^
+[error] one error found
