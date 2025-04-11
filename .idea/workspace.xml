@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d86b51b-c3f6-4fee-9791-a6da0387b5d8" name="Changes" comment="" />
+    <list default="true" id="2d86b51b-c3f6-4fee-9791-a6da0387b5d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ABC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employees.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Exercices.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Monads.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Pruebas.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/TransforAndOptimi.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/WindowsFunctionsMain.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/EmployeesOperations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/SparkConfiguration.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/SparkUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +99,7 @@
     "Application.WindowsFunctionsMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "spark__app",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Repositories/workSpace/spark-video-course",
     "settings.editor.selected.configurable": "terminal"
